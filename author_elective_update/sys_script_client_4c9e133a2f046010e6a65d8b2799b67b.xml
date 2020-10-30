@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide Subcategory field when Category field value is  database</description>
+        <field>category</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Show or Hide Subcategory field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, newValue, oldValue, isLoading, isTemplate) {
+	
+	
+if( newValue == '') {
+	
+	return;
+	
+	
+}
+		
+	if( newValue == "Database") {
+		
+		alert("You have recently changed the category form field from " +oldValue+ " to " +newValue+" right here.");
+		
+	
+		
+		
+		
+	
+	}
+	
+	
+		
+		
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-28 08:46:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4c9e133a2f046010e6a65d8b2799b67b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>Show or Hide Subcategory field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_client_4c9e133a2f046010e6a65d8b2799b67b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 03:15:58</sys_updated_on>
+        <table>incident</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>d94a39f0db91b3c00ae3ac44d4961924</instance_id>
+        <instance_name>dev85390</instance_name>
+        <name>sys_script_client_4c9e133a2f046010e6a65d8b2799b67b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Hide Subcategory field when Category field value is  database&lt;/description&gt;&lt;field&gt;category&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Show or Hide Subcategory field&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, newValue, oldValue, isLoading, isTemplate) {
+	
+	
+if( newValue == '') {
+	
+	return;
+	
+	
+}
+		
+	if( newValue == "Database") {
+		
+		alert("You have recently changed the category form field from " +oldValue+ " to " +newValue+" right here.");
+		
+	
+		
+		
+		
+	
+	}
+	
+	
+		
+		
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-10-28 08:46:03&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;4c9e133a2f046010e6a65d8b2799b67b&lt;/sys_id&gt;&lt;sys_mod_count&gt;11&lt;/sys_mod_count&gt;&lt;sys_name&gt;Show or Hide Subcategory field&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_4c9e133a2f046010e6a65d8b2799b67b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-10-29 03:15:58&lt;/sys_updated_on&gt;&lt;table&gt;incident&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1523366152</payload_hash>
+        <record_name>Show or Hide Subcategory field</record_name>
+        <reverted_from/>
+        <source>0e11190c2fdb5010e6a65d8b2799b613</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 03:15:58</sys_created_on>
+        <sys_id>2bced30f2f8c6010e6a65d8b2799b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>175725add0a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 03:15:58</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>63ced30f628c60107428a8239c6ac218</update_guid>
+        <update_guid_history>63ced30f628c60107428a8239c6ac218:-1523366152,5cfcdf8be68c6010b6e5eaee4f2529a8:-1629759052,71663d8797886010c089b7cd3074a73f:-1850800432,2d9575c7b6886010feac59c461998f4b:-839650555,05347947948860109dcc2d941dfd7e6f:-1299711862,6d42f907188860105e864a9d6994bc88:968616012,64e1b5076188601095b6545908ec8914:1174705247,ab4135c380886010acf73d22915b2881:260931911,cbaa2103f78860101d4f18f74a306271:-127222433,0ec8618f52486010dd55d8a9366474ea:-470814355,bb11a37a320460103d5bf987a792b7ed:933713619,7cc0a37a9e046010ff8e4c7df37d5de8:-1518757313</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-29 07:24:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>39102bbc3d47452c9a28eafe5b24efc4</sys_id>
+        <sys_metadata>4c9e133a2f046010e6a65d8b2799b67b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Show or Hide Subcategory field</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Incident">2093a7252f071010e6a65d8b2799b6dc</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_client_4c9e133a2f046010e6a65d8b2799b67b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_4c9e133a2f046010e6a65d8b2799b67b">2bced30f2f8c6010e6a65d8b2799b618</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-29 07:24:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
